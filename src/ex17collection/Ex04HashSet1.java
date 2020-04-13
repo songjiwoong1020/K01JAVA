@@ -69,6 +69,8 @@ public class Ex04HashSet1 {
 		6] 저장된객체출력
 			: 순서없이 저장되므로 출력도 순서를 지정할수 없다.
 		 */
+		
+		
 		Iterator itr = set.iterator();
 		while(itr.hasNext()) {
 			Object object = itr.next();
