@@ -19,6 +19,18 @@ public class HelloWorld { //ㅁㅇㄴㅁㅇㅁㄴㅇ
 		System.out.println("Hello World...!!");
 		System.out.println("처음 사용해보는 이클립스..!!");
 		
+		int y=8, z=10;
+		boolean res;
+		
+		res = ++y<z || ++y==z && ++y==z;
+		System.out.println(res);
+		System.out.println(y);
+		res = ++y<z || ++y==z && ++y==z;
+		System.out.println(res);
+		System.out.println(y);
+		res = ++y<z && ++y==z || ++y==z;
+		System.out.println(res);
+		System.out.println(y);
 		
 	}
 
